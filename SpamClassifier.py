@@ -3,7 +3,7 @@ import os
 work_dir = "C:\\Users\\kamle\\OneDrive\\Documents\\Projects\\Learning Material\\Codes\\ApacheSpamClassifier\\"
 
 
-# Geting emails from all file containinh=g in particular folder
+# Getting emails from all file contained in a particular folder
 emails_list = []
 labels = []
 def get_emails(folder_name, label=None):
@@ -42,4 +42,3 @@ encoder.fit_transform(X_train)
 #TODO: add parameter to transformer
 from sklearn.base import BaseEstimator, TransformerMixin
 
-class
